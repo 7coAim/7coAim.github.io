@@ -8,6 +8,7 @@
   <title>@7coAim Web Site</title>
   <meta name="description" content="@7coAimのWebサイトです">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
   <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
@@ -22,49 +23,98 @@
 
 <body>
 
-  <div class="container">
+  <div class="container" id="top">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded my-3">
-      <a class="navbar-brand" href="./">
-        <img src="img/apple-touch-icon-120x120.png" width="30" height="30" class="d-inline-block align-top" alt="@7coAim-icon">
-        @7coAim
-      </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="./">
+          <img src="img/apple-touch-icon-120x120.png" width="30" height="30" class="d-inline-block align-top" alt="@7coAim-icon">
+          @7coAim
+        </a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-      </button>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#link">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-
     <main role="main">
-      <div class="jumbotron my-3">
-        <div class="col-sm-8 mx-auto">
-          <h1>@7coAim Web Site</h1>
-          <p>@7coAimのWebサイトです</p>
+
+      <div class="my-5" id="link">
+        <h1 class="text-center">@7coAim Web Site</h1>
+      </div>
+
+      <div class="pb-2 mt-4 mb-2 border-bottom text-secondary">
+        <h5>Link</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-3 my-3">
+          <a class="btn btn-outline-primary btn-block btn-lg badge-pill" href="https://twitter.com/7coAim" target="_blank" role="button">Twitter</a>
+        </div>
+        <div class="col-md-3 my-3">
+          <a class="btn btn-outline-secondary btn-block btn-lg badge-pill" href="http://ncaim.hatenablog.jp/" target="_blank" role="button">Hatena Blog</a>
+        </div>
+        <div class="col-md-3 my-3">
+          <a class="btn btn-outline-success btn-block btn-lg badge-pill" href="https://qiita.com/7coAim" target="_blank" role="button">Qiita</a>
+        </div>
+        <div class="col-md-3 my-3">
+          <a class="btn btn-outline-dark btn-block btn-lg badge-pill" href="https://github.com/7coAim" target="_blank" role="button">Github</a>
         </div>
       </div>
+
+
+      <div class="pb-2 mt-4 mb-2 border-bottom text-secondary" id="profile">
+        <h5>Profile</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-3 my-3">
+          hogehogehogehogehoge
+        </div>
+      </div>
+
+      <div class="pb-2 mt-4 mb-2 border-bottom text-secondary" id="skills">
+        <h5>Skills</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-3 my-3">
+          hogehogehogehogehoge
+        </div>
+      </div>
+
+      <div class="pb-2 mt-4 mb-2 border-bottom text-secondary" id="portfolio">
+        <h5>Portfolio</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-3 my-3">
+          hogehogehogehogehoge
+        </div>
+      </div>
+
     </main>
+
   </div>
+
+  <hr>
 
   <footer class="footer">
     <div class="container">
