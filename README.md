@@ -2,4 +2,4 @@
 
 - @7coAimのWebサイト用のリポジトリです
 
-- Webはこちらです  https://7coaim.github.io/
+- Webサイトはこちらです  https://7coaim.github.io/
